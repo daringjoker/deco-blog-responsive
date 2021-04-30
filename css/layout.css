@@ -1,0 +1,37 @@
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+
+.nofloat{
+    float:none;
+}
+.center{
+    width:94%;
+    margin:0 auto;
+}
+
+.mainbody{
+    padding:40px 0px;
+}
+/* .content-wrapper{
+    width:80%;
+    float:left;
+} */
+
+/* .sidebar{
+    width:20%;
+    float:right;
+    background-color:white;
+} */
+
+.footer-wrapper{
+    width:94%;
+    margin:0 auto;
+}
+/* .col{
+
+    width:100%;
+} */

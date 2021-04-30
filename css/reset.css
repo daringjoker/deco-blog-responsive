@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* background:rgba(0,0,0,0.1); */
+}
+
+.clearfix::after{
+clear:both;
+content:"";
+display:table;
+}
+
+.clr-btn{
+    background-color: transparent;
+    outline:none;
+    border:none;
+}

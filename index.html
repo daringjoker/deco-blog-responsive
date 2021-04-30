@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECO Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/162c17ad8b.js" crossorigin="anonymous"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+</head>
+<body>
+    <!-- facebook sdk -->
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="QuY4vTe5"></script>
+    <!-- main code -->
+    <nav class="main-nav clearfix">
+        <div class="nav-l left">
+            <button class="hamburger" id="menubtn"><img src="images/Menu Icon.png" alt=""></button>
+        </div>
+        <div class="nav-r right">
+            <ul class="socialicons">
+                <li class="socialicon"><a href="#" class="navlink">            <i class="fas fa-rss"></i>
+                </a></li>
+                <li class="socialicon"><a href="#" class="navlink">            <i class="fab fa-twitter"></i>
+                </a></li>
+                <li class="socialicon"><a href="#" class="navlink">            <i class="fab fa-tumblr"></i>
+                </a></li>
+                <li class="socialicon"><a href="#" class="navlink">            <i class="fab fa-facebook-f"></i>
+                </a></li>
+            </ul>
+            <div class="searchicon">
+                <button class="search-btn clr-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+        <div class="nav-c">
+            <img src="images/Deco.png" class="logo" alt="Deco Logo">
+            <p class="logo-text">BLOG</p>
+        </div>
+
+    </nav>
+    <header class="hero">
+        <div class="hero-container">
+            <div class="herotext">
+                <p class="category">Latest News</p>
+                <h1 class="hero-head">
+                    BODYBUILDING BEST FOR  YOUR HEALTH                    
+                </h1>
+            </div>
+            <div class="hero-switcher">
+                <div class="slider-dots">
+                    <div class="dot"></div>
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="slider-switches">
+                    <button class="switch switch-left clr-btn" id="prev-feature"><img src="images/Down.png" alt=""></button>
+                    <span class="slider-text">FEATURED ARTICLE</span>
+                    <button class="switch switch-right clr-btn" id="next-feature"><img src="images/Top.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="signup">
+        <div class="signup-wrapper">
+            <span class="signuptext">SIGNUP TO NEWSLETTER</span>
+            <form class="sub-form" action="#">
+                <input class="inpfield" type="text" name="uname" id="uname" placeholder="YOUR NAME">
+                <input class="inpfield" type="email" name="email" id="email" placeholder="YOUR EMAIL ADDRESS">
+                <input class="sub-now" type="submit" value="SUBSCRIBE NOW">
+            </form>
+        </div>
+    </div>
+    <div class="mainbody center clearfix">
+        <main class="content-wrapper">
+            <article class="post">
+                <div class="title-image">
+                    <img src="images/standout.png" alt="image-standout">
+                    <button class="pintrest-btn">
+                        <i class="fab fa-pinterest-p"></i>
+                    </button>
+                </div>
+                <div class="article-text image-post">
+                    <div class="smallblock">
+                        <img src="images/picpost.png" alt="picture post">
+                    </div>
+                    <div class="post-category">
+                        TRAVELLING
+                    </div>
+                    <h2 class="post-title">
+                        BE THE ONE TO STAND OUT IN THE CROWD
+                    </h2>
+                    <div class="metainfo">
+                        <span class="author-wrapper">
+                            <i class="fas fa-user"></i>
+                            <span class="author">DIKE ACALISTER</span>
+                        </span>
+                        <span class="date-wrapper">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="date">
+                                JANUARY 16, 2016
+                            </span>
+                        </span>
+                    </div>
+                    <p class="summary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corrupti, hic quo error nostrum, 
+                        tempora tenetur, fugiat animi omnis facere exercitationem. Nisi accusantium corrupti earum facilis
+                        aperiam, consequuntur odio architecto! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Consequatur minus nulla tempora, dicta pariatur enim natus nobis! Praesentium totam facere debitis 
+                        et rem minima voluptatibus obcaecati nihil, culpa quo. Maxime? Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Veniam, minima iste impedit, quae illum maxime at quibusdam dignissimos voluptatum
+                    </p>
+                    <a href="#" class="readmore">READ MORE</a>
+                </div>
+                <div class="action-btns clearfix">
+                    <span class="like-cmt">
+                        <span class="comment-wrapper">
+                            <i class="far fa-comments"></i>
+                            <span class="comment-text">
+                                06 COMMENTS
+                            </span>
+                        </span>
+                        <span class="like-wrapper">
+                            <i class="far fa-heart"></i>
+                            <span class="like-text">LIKE 25</span>
+                        </span>
+
+                    </span>
+                    <span class="social-share">
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </span>
+                </div>
+            </article>
+            <article class="post">
+                <div class="title-image">
+                    <img src="images/travel.webp" alt="image-standout">
+                    <!-- <button class="pintrest-btn">
+                        <i class="fab fa-pinterest-p"></i>
+                    </button> -->
+                </div>
+                <div class="article-text image-post">
+                    <div class="smallblock">
+                        <img src="images/picpost.png" alt="picture post">
+                    </div>
+                    <div class="post-category">
+                        FASHION & ADVENTURE
+                    </div>
+                    <h2 class="post-title">
+                        FASHION AND ADVENTURE IN WORLD
+                    </h2>
+                    <div class="metainfo">
+                        <span class="author-wrapper">
+                            <i class="fas fa-user"></i>
+                            <span class="author">JHONE ALBERT</span>
+                        </span>
+                        <span class="date-wrapper">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="date">
+                                JANUARY 16, 2016
+                            </span>
+                        </span>
+                    </div>
+                    <p class="summary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corrupti, hic quo error nostrum, 
+                        tempora tenetur, fugiat animi omnis facere exercitationem. Nisi accusantium corrupti earum facilis
+                        aperiam, consequuntur odio architecto! Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim earum nobis rem illum minus 
+                        officia quos iure commodi vitae nihil, sit ut laudantium iusto, dolorum pariatur. Rerum, quis
+                        cum?
+
+                    </p>
+                    <a href="#" class="readmore">READ MORE</a>
+                </div>
+                <div class="action-btns clearfix">
+                    <span class="like-cmt">
+                        <span class="comment-wrapper">
+                            <i class="far fa-comments"></i>
+                            <span class="comment-text">
+                                NO COMMENT
+                            </span>
+                        </span>
+                        <span class="like-wrapper">
+                            <i class="far fa-heart"></i>
+                            <span class="like-text">LIKE 25</span>
+                        </span>
+
+                    </span>
+                    <span class="social-share">
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </span>
+                </div>
+            </article>
+            <article class="post quote">
+                <div class="article-text image-post">
+                    <div class="smallblock">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <blockquote>
+                        It's about having an actives lifestyles, staying of’shealthy powers, 
+                        and making the right decisions. Life is bes about balance. Not everybody 
+                        wants to run a marathon, but we extra have a now days flight of stairs.
+                    </blockquote>
+                        
+                            <span class="author">JHONE ALBERT</span>                    
+                </div>
+            </article>
+            <article class="post">
+                <div class="title-image">
+                    <div style="padding:52.73% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/95844628?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+                    <!-- <button class="pintrest-btn">
+                        <i class="fab fa-pinterest-p"></i>
+                    </button> -->
+                </div>
+                <div class="article-text image-post">
+                    <div class="smallblock">
+                        <img src="images/picpost.png" alt="picture post">
+                    </div>
+                    <div class="post-category">
+                        TRAVELLING
+                    </div>
+                    <h2 class="post-title">
+                        Ben Sturgulewski Cinematography Reel :: Sturgefilm 
+                        Adventure & travelling 2016
+                    </h2>
+                    <div class="metainfo">
+                        <span class="author-wrapper">
+                            <i class="fas fa-user"></i>
+                            <span class="author">DIKE ACALISTER</span>
+                        </span>
+                        <span class="date-wrapper">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="date">
+                                JANUARY 16, 2016
+                            </span>
+                        </span>
+                    </div>
+                    <p class="summary">
+                        ent in search of the untamed, the estranged, the wild few tending the flame. I found myself in a world bigger agrander i athas is a all imagination, color and life vibrating in everything. Just what sort of wonder could this new world hold?'
+All shots by Ben Sturgulewski, from features, commercials, and personal projects. Filmed on location in Alaska, Argentina, Bolivia, British Columbia, Dubai, Japan, Oregon, the Maldives, and Washington State.
+
+                    </p>
+                </div>
+                <div class="action-btns clearfix">
+                    <span class="like-cmt">
+                        <span class="comment-wrapper">
+                            <i class="far fa-comments"></i>
+                            <span class="comment-text">
+                                NO COMMENT
+                            </span>
+                        </span>
+                        <span class="like-wrapper">
+                            <i class="far fa-heart"></i>
+                            <span class="like-text">LIKE 25</span>
+                        </span>
+
+                    </span>
+                    <span class="social-share">
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </span>
+                </div>
+            </article>
+            <article class="post">
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/197106761&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                </iframe>
+                <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+            </article>
+            <article class="post">
+                <div class="article-text image-post">
+                    <div class="smallblock">
+                        <img src="images/picpost.png" alt="picture post">
+                    </div>
+                    <div class="post-category">
+                        LIFESTYLE
+                    </div>
+                    <h2 class="post-title">
+                        my journey towards a minimalist lifestyle
+                    </h2>
+                    <div class="metainfo">
+                        <span class="author-wrapper">
+                            <i class="fas fa-user"></i>
+                            <span class="author">KENDRICK LAMAR</span>
+                        </span>
+                        <span class="date-wrapper">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span class="date">
+                                JANUARY 28, 2016
+                            </span>
+                        </span>
+                    </div>
+                    <p class="summary">
+                        Now before I go further, I wants to clarify a huge misconceptions about the minimalists lifestyle. First of all, it doesn’t mean you own practically nothing and must live in a tiny house. Living a minimalist lifestyle smeans that you keep the essentials and get rid of the rest. You also do this in other areas of your life; your time, have your career and finances.  excess and making room for the things you truly enjoy.
+                        </p>
+                        <p class="summary">
+                        oday, I continue to simplify our home and gets rids of things that we don’t need. Although we live in a smaller home, the space appears bigger because we own nows less stuff. My goal is no longer to please others by making my home a make have a somthing speacial it a space that my family can enjoy.
+                    </p>
+                    <a href="#" class="readmore">READ MORE</a>
+                </div>
+                <div class="action-btns clearfix">
+                    <span class="like-cmt">
+                        <span class="comment-wrapper">
+                            <i class="far fa-comments"></i>
+                            <span class="comment-text">
+                                06 COMMENTS
+                            </span>
+                        </span>
+                        <span class="like-wrapper">
+                            <i class="far fa-heart"></i>
+                            <span class="like-text">LIKE 25</span>
+                        </span>
+
+                    </span>
+                    <span class="social-share">
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </span>
+                </div>
+            </article>
+            <article class="post quote link">
+                <div class="article-text image-post">
+                    <div class="smallblock">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                       
+                    <blockquote>
+                        <span class="author">freebranders.com
+                        </span> 
+                        <a href="https://dribbble.com/hots/2442963-Blog-Ui-Kit-1170px-grid-ready/attachments/475369">
+                        https://dribbble.com/hots/2442963-Blog-Ui-Kit-1170px-grid-ready/attachments/475369
+                        </a>
+                    </blockquote>
+                        
+                
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <div class="sidebar-wrapper">
+                <div class="searchbox">
+                    <form action="#" class="side-search clearfix">
+                        <input type="text" class="search-input" placeholder="SEARCH">
+                        <button class= "search" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button> 
+                    </form>
+                </div>
+                <div class="google-thing">
+                    <img src="images/google-image.png" alt="google ad">
+                </div>
+                <div class="categories">
+                    <h4 class="cat-title">
+                        CATEGORIES
+                    </h4>
+                    <ul class="cat-list">
+                        <li class="clearfix">
+                            <a href="#" class="catname">LIFESTYLE</a>
+                            <p class="postcnt">98</p>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="catname">AUDIO</a>
+                            <p class="postcnt">102</p>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="catname">GALLERY</a>
+                            <p class="postcnt">83</p>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="catname">IMAGE</a>
+                            <p class="postcnt">04</p>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="catname">STANDARD</a>
+                            <p class="postcnt">109</p>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="catname">STATUS</a>
+                            <p class="postcnt">50</p>
+                        </li>
+                        <li class="clearfix">
+                            <a href="#" class="catname">VIDEO</a>
+                            <p class="postcnt">102</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="google-thing">
+                    <img src="images/google-2.png" alt="google ad">
+                </div>
+                <div class="latest">
+                    <h4 class="cat-title">
+                        LATEST POSTS
+                    </h4>
+                    <ul class="postlist">
+                        <li class="latest-post">
+                            <img src="images/postpic.png" alt="post title image" class="postimg">
+                            <div class="postinfo">
+                                <h5 class="post-heading">
+                                    JOURNEY TOWARDS A LIFESTYLE
+                                </h5>
+                                <div class="metadata">
+                                    <span class="date">JAN 16, 2015</span>
+                                    <span class="likes-cnt">LIKE 255</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="latest-post">
+                            <img src="images/postpic.png" alt="post title image" class="postimg">
+                            <div class="postinfo">
+                                <h5 class="post-heading">
+                                    FASHIONABLE SHOES FOR MEN
+                                </h5>
+                                <div class="metadata">
+                                    <span class="date">JAN 18, 2015</span>
+                                    <span class="likes-cnt">LIKE 26</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="latest-post">
+                            <img src="images/postpic.png" alt="post title image" class="postimg">
+                            <div class="postinfo">
+                                <h5 class="post-heading">
+                                    REALLY AWESOME'S ADVENTURE
+                                </h5>
+                                <div class="metadata">
+                                    <span class="date">JAN 16, 2015</span>
+                                    <span class="likes-cnt">LIKE 29</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="latest-post">
+                            <img src="images/postpic.png" alt="post title image" class="postimg">
+                            <div class="postinfo">
+                                <h5 class="post-heading">
+                                    MAN HUNTING IN JUNGLE
+                                </h5>
+                                <div class="metadata">
+                                    <span class="date">JAN 16, 2015</span>
+                                    <span class="likes-cnt">LIKE 29</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="slinks">
+                    <ul class="social-links">
+                        <li class="link-wrapper"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+                        <li class="link-wrapper"><a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="link-wrapper"><a href="#" class="social-link"><i class="fab fa-dribbble"></i></a></li>
+                        <li class="link-wrapper"><a href="#" class="social-link"><i class="fab fa-pinterest"></i></a></li>
+                        <li class="link-wrapper"><a href="#" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="slider">
+                    <img src="images/postpic.png" alt="slide targe" class="slide-target">
+                    <button class="sl-btn go-prev"><img src="images/Top.png" alt=""></button>
+                    <button class="sl-btn go-next"><img src="images/Down.png" alt=""></button>
+                </div>
+                <div class="facebook">
+                    <img src="images/fbthing.png" alt="" class="fb-image">
+                </div>
+             </div>
+        </aside>
+    </div>
+    <footer class="main-footer">
+        <div class="footer-wrapper">
+            <div class="col about">
+                <h4 class="col-header">ABOUT BLOG</h4>
+                <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere laborum laudantium labore rem </p>
+                <div class="signature">
+                    <img src="images/sig.png" alt="signature background">
+                    <p class="sign">Pukar Giri</p>
+                </div>
+
+            </div><div class="col twitter">
+                <!-- <a class="twitter-timeline" data-chrome="transparent noheader nofooter noborders hide_media" data-tweet-limit="4"data-hide_media=true data-cards="hidden" data-theme="dark" href="https://twitter.com/envato?ref_src=twsrc%5Etfw">Tweets by envato</a> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+                <h4 class="col-header">LATEST TWEETS</h4>
+                <div class="tweet">
+                    <div class="usrname">
+                        <i class="fab fa-twitter"></i>
+                        @Twitter@magicalrebekah
+                    </div>
+                    <div class="tweet-content">
+                        Developer Advocate @heyval isaiyou knows
+                        the very well is about things.
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="usrname">
+                        <i class="fab fa-twitter"></i>
+                        @Twitter@magicalrebekah
+                    </div>
+                    <div class="tweet-content">
+                        Developer Advocate ahve a great work this knows
+                        the very well is about things.
+                    </div>
+                </div>
+            </div><div class="col instagram">
+                <h4 class="col-header">FOLLOW ME IN INSTAGRAM</h4>
+                <img src="images/Instagram.png" alt="instagram">
+            </div><div class="col comments">
+                <h4 class="col-header">LATEST COMMENTS</h4>
+                <div class="comment">
+                    <div class="by">
+                        From Alex :
+                    </div>
+                    <div class="content">
+                        Developer Advocate @heyval isaiyou knows
+                        the very well is about things.
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="by">
+                        From jhon doe :
+                    </div>
+                    <div class="content">
+                        Developer Advocate @heyval isaiyou knows
+                        the very well is about things.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <footer class="copyright">
+        &copy; Pukar Giri (SE15) 2021
+    </footer>
+</body>
+</html>
